@@ -319,7 +319,7 @@ export default function Home() {
                 }}
                 transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
               >
-                Tachfine
+                TACHFINE
               </motion.span>
               <motion.span
                 className="block text-5xl md:text-7xl mt-2 text-gray-300"
@@ -327,7 +327,7 @@ export default function Home() {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
               >
-                El farouki
+                EL FAROUKI
               </motion.span>
             </motion.h1>
 
