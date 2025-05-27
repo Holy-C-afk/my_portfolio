@@ -39,6 +39,8 @@ npm run dev
 
 Le site est déployé sur Vercel et accessible à l'adresse : [https://tachfine-portfolio.vercel.app](https://tachfine-portfolio.vercel.app)
 
+Le site est également disponible sur GitHub Pages : [https://holy-c-afk.github.io/my_portfolio](https://holy-c-afk.github.io/my_portfolio)
+
 ## Docker
 
 This project is containerized using Docker. Here's how to run it:
@@ -70,7 +72,7 @@ docker build -t my-portfolio .
 
 ### Docker Hub
 
-The Docker image is available on Docker Hub: [amatertu/my-portfolio](https://hub.docker.com/r/amaterstu/my-portfolio).
+The Docker image is available on Docker Hub: [amatertu/my-portfolio](https://hub.docker.com/r/amatertu/my-portfolio).
 
 ## Contact
 
