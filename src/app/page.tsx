@@ -635,10 +635,15 @@ export default function Home() {
                         scale: 1.05,
                         boxShadow: `0 0 30px ${currentThemeColors.primary.split(' ')[1]}`
                       }}
-                      transition={{ duration: 0.2, ease: "easeOut" }}
                       initial={{ y: 20, opacity: 0 }}
                       whileInView={{ y: 0, opacity: 1 }}
-                      transition={{ duration: 0.4, delay: index * 0.1, ease: "easeOut" }}
+                      transition={{ 
+                        duration: 0.4, 
+                        delay: index * 0.1, 
+                        ease: "easeOut",
+                        type: "spring",
+                        stiffness: 300
+                      }}
                     >
                       <motion.div
                         className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-200"
