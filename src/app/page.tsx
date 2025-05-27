@@ -285,13 +285,13 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <motion.div
-                className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-blue-500/20"
+                className="relative w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-blue-500/20"
                 initial={{ scale: 0.8, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
               >
                 <motion.img 
-                  src="/my_portfolio/profile.jpg" 
+                  src="profile.jpg" 
                   alt="Tachfine El farouki" 
                   className="w-full h-full object-cover"
                   initial={{ scale: 1.1 }}
