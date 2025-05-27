@@ -1,58 +1,46 @@
-# Portfolio Personnel
+# Portfolio de Tachfine El farouki
 
-Un portfolio moderne et dynamique créé avec Next.js, TypeScript, Tailwind CSS et Framer Motion.
-
-## Fonctionnalités
-
-- Design moderne et responsive
-- Animations fluides avec Framer Motion
-- Sections pour présenter vos compétences, certifications et projets
-- Interface utilisateur intuitive en français
-- Optimisé pour les performances
-
-## Installation
-
-1. Clonez ce dépôt
-2. Installez les dépendances :
-```bash
-npm install
-```
-
-3. Lancez le serveur de développement :
-```bash
-npm run dev
-```
-
-4. Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur
-
-## Personnalisation
-
-1. Modifiez le contenu dans `src/app/page.tsx` :
-   - Remplacez `[Votre Nom]` par votre nom
-   - Ajoutez votre description personnelle
-   - Mettez à jour les liens vers vos réseaux sociaux
-   - Ajoutez vos compétences et certifications
-
-2. Personnalisez les couleurs dans `src/app/globals.css`
-
-3. Ajoutez vos propres images dans le dossier `public/`
+Portfolio personnel présentant mes compétences, projets et certifications en développement web et logiciel.
 
 ## Technologies utilisées
 
 - Next.js 14
+- React
 - TypeScript
 - Tailwind CSS
 - Framer Motion
-- React Icons
+
+## Fonctionnalités
+
+- Design moderne et responsive
+- Animations fluides
+- Sections pour :
+  - Présentation
+  - Compétences
+  - Formation
+  - Certifications
+  - Projets
+  - Contact
+
+## Installation
+
+```bash
+# Cloner le repository
+git clone https://github.com/Holy-C-afk/my_portfolio.git
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
+```
 
 ## Déploiement
 
-Ce portfolio peut être facilement déployé sur Vercel :
+Le site est déployé sur Vercel et accessible à l'adresse : [https://tachfine-portfolio.vercel.app](https://tachfine-portfolio.vercel.app)
 
-1. Créez un compte sur [Vercel](https://vercel.com)
-2. Importez votre dépôt
-3. Suivez les instructions de déploiement
+## Contact
 
-## Licence
-
-MIT 
+- Email : tachfineelfarouki76@gmail.com
+- GitHub : [@Holy-C-afk](https://github.com/Holy-C-afk)
+- LinkedIn : [Tachfine El farouki](https://linkedin.com) 
