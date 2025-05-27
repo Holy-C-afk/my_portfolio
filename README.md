@@ -70,7 +70,7 @@ docker build -t my-portfolio .
 
 ### Docker Hub
 
-The Docker image is available on Docker Hub: [amatertu/my-portfolio](https://hub.docker.com/r/amatertu/my-portfolio).
+The Docker image is available on Docker Hub: [amatertu/my-portfolio](https://hub.docker.com/r/amaterstu/my-portfolio).
 
 ## Contact
 
