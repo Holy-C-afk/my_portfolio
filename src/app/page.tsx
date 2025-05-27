@@ -698,6 +698,13 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
                 {
+                  title: "Introduction to Cloud Computing",
+                  platform: "Coursera",
+                  category: "Cloud Computing",
+                  url: "https://www.coursera.org/account/accomplishments/verify/IRA52H9ET2KD",
+                  school: "IBM"
+                },
+                {
                   title: "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
                   platform: "Coursera",
                   category: "DevOps & Cloud",
