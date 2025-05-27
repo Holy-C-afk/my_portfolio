@@ -285,70 +285,20 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <motion.div
-                className="relative w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-blue-500/20 shadow-2xl"
-                style={{
-                  borderColor: currentThemeColors.border
-                }}
-                animate={{
-                  y: [0, -10, 0],
-                  scale: [1, 1.02, 1],
-                }}
-                transition={{
-                  duration: 4,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                }}
+                className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-blue-500/20"
+                initial={{ scale: 0.8, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.5, ease: "easeInOut" }}
               >
-                <motion.div
-                  className="absolute inset-0 z-10"
-                  style={{
-                    background: `linear-gradient(to bottom right, ${currentThemeColors.primary.split(' ')[1]}, ${currentThemeColors.secondary.split(' ')[1]})`,
-                    opacity: 0.2
-                  }}
-                  animate={{
-                    opacity: [0.3, 0.6, 0.3],
-                    scale: [1, 1.1, 1],
-                  }}
-                  transition={{
-                    duration: 3,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                  }}
-                />
-                <motion.img
-                  src="/profile.jpg"
-                  alt="Tachfine El farouki"
+                <motion.img 
+                  src="/my_portfolio/profile.jpg" 
+                  alt="Tachfine El farouki" 
                   className="w-full h-full object-cover"
                   initial={{ scale: 1.1 }}
                   animate={{ scale: 1 }}
                   transition={{ duration: 0.5 }}
                 />
-                <motion.div
-                  className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 z-10"
-                  animate={{
-                    opacity: [0.2, 0.4, 0.2],
-                    scale: [1, 1.05, 1],
-                  }}
-                  transition={{
-                    duration: 3,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                  }}
-                />
-                <motion.div
-                  className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"
-                />
-                <motion.div
-                  className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent z-10"
-                  animate={{
-                    x: ["-100%", "100%"],
-                  }}
-                  transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "linear",
-                  }}
-                />
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 z-10"></div>
               </motion.div>
             </motion.div>
 
