@@ -345,21 +345,7 @@ export default function Home() {
                 >
                   Ingénieur
                 </motion.span>{" "}
-                en MIAGE |{" "}
-                <motion.span
-                  className="inline-block text-purple-400"
-                  animate={{ y: [0, -5, 0] }}
-                  transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-                >
-                  Développeur
-                </motion.span>{" "}
-                <motion.span
-                  className="inline-block text-pink-400"
-                  animate={{ y: [0, -5, 0] }}
-                  transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                >
-                  Full Stack
-                </motion.span>
+                en MIAGE
               </p>
             </motion.div>
 
